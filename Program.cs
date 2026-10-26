@@ -5,6 +5,17 @@ using System.Runtime.CompilerServices;
 
 /* Here started my program*/
 
+// + overload.
+
+class Expense
+{
+    public string Description { get; set; } = "";
+    public decimal Amount { get; set; }
+    public string Category { get; set; } = "";
+    public DateTime Date { get; set; }
+    public string? Note { get; set; }
+}
+
 bool exect = true; /* Checks whether the option is in the list and returns true by default*/
 
 Console.WriteLine("==============================================");
@@ -28,15 +39,15 @@ while (exect)
     {
         case "1":
             Console.WriteLine("Add an expense selected.");
-            Expense();
+            AddExpense();
             break;
         case "2":
             Console.WriteLine("View summary selected.");
-            Summary();
+            ViewSummary();
         break;
         case "3":
             Console.WriteLine("Set monthly budget selected.");
-            Budget();
+            MonthBudget();
         break;
         case "4":
             Console.WriteLine("Thank you for using MyBudget!");
@@ -49,15 +60,13 @@ while (exect)
         break;
     }
 }
-private static void Expense() 
-{ 
 
-}
-private static void Summary()
+private static void AddExpense() 
 { 
-
 }
-private static void Budget()
+private static void ViewSummary()
+{ 
+}
+private static void MonthBudget()
 {
-
 }
