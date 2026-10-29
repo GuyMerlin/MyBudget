@@ -5,15 +5,33 @@ using System.Runtime.CompilerServices;
 
 /* Here started my program*/
 
-// + overload.
-
 class Expense
 {
     public string Description { get; set; } = "";
     public decimal Amount { get; set; }
-    public string Category { get; set; } = "";
+    public ExpenseCategoryType Category { get; set; } = "";
     public DateTime Date { get; set; }
     public string? Note { get; set; }
+    public static Expense (String Description,
+                             decimal Amount,
+                             ExpenseType Category,
+                             DateOnly Date,
+                             String Note)
+    {
+        Description = description;
+        Amount = amount;
+        Category = category;
+        Date = date;
+        Note = string.IsNullOrWhiteSpace(note) ? null : note.Trim();
+    }
+}
+public enum ExpenseCategoryType
+{
+    Food,
+    Utilities,
+    Transport,
+    Entertainment,
+    Other
 }
 
 bool exect = true; /* Checks whether the option is in the list and returns true by default*/
@@ -21,8 +39,7 @@ bool exect = true; /* Checks whether the option is in the list and returns true 
 Console.WriteLine("==============================================");
 Console.WriteLine("       Welcome to my Budget Expense Tracker   ");
 Console.WriteLine("==============================================");
-//Console.WriteLine("                Make your choice              ");
-//Console.WriteLine(" 1) Add an expense    2) View summary    3) Set monthly budget    4) Exit");
+
 while (exect)
 {
     Console.WriteLine("      \nPlease choose an option:");
@@ -33,7 +50,7 @@ while (exect)
     Console.Write("             Enter your choice: ");
 
     string option = Console.ReadLine() ?? "";
-    /* Star of treatment based on the choice made */
+    /* Start of treatment based on the choice made */
     /* Creation of processing functions  */
     switch (option)
     {
@@ -47,7 +64,7 @@ while (exect)
         break;
         case "3":
             Console.WriteLine("Set monthly budget selected.");
-            MonthBudget();
+            EnterMonthlyBudget();
         break;
         case "4":
             Console.WriteLine("Thank you for using MyBudget!");
@@ -55,18 +72,26 @@ while (exect)
         break;
 
         default:
-            Console.WriteLine(
-                           "Enter a number between 1 and 4.");
+            Console.WriteLine(  "Enter a number between 1 and 4.");
         break;
     }
+    //if (exect)
+    //{
+    //    Console.WriteLine();
+    //}
 }
 
-private static void AddExpense() 
-{ 
+//Method that is treatened Expenses
+//Budget Management and Approval of Amounts
+public static void  AddExpense ()
+{
+    //public static string 
 }
 private static void ViewSummary()
 { 
+
 }
-private static void MonthBudget()
+private static void EnterMonthlyBudget()
 {
+
 }
