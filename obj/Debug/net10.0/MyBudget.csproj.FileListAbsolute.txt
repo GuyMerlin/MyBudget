@@ -13,3 +13,4 @@ D:\Humber Polytechnic\Project\MyBudget\MyBudget\obj\Debug\net10.0\MyBudget.pdb
 D:\Humber Polytechnic\Project\MyBudget\MyBudget\obj\Debug\net10.0\MyBudget.genruntimeconfig.cache
 D:\Humber Polytechnic\Project\MyBudget\MyBudget\obj\Debug\net10.0\ref\MyBudget.dll
 D:\Humber Polytechnic\Project\MyBudget\MyBudget\obj\Debug\net10.0\MyBudget.sourcelink.json
+D:\Humber Polytechnic\Project\MyBudget\MyBudget\obj\Debug\net10.0\MyBudget.csproj.Up2Date
