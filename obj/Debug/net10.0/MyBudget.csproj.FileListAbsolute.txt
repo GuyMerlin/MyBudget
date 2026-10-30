@@ -1,0 +1,15 @@
+D:\Humber Polytechnic\Project\MyBudget\MyBudget\bin\Debug\net10.0\MyBudget.exe
+D:\Humber Polytechnic\Project\MyBudget\MyBudget\bin\Debug\net10.0\MyBudget.deps.json
+D:\Humber Polytechnic\Project\MyBudget\MyBudget\bin\Debug\net10.0\MyBudget.runtimeconfig.json
+D:\Humber Polytechnic\Project\MyBudget\MyBudget\bin\Debug\net10.0\MyBudget.dll
+D:\Humber Polytechnic\Project\MyBudget\MyBudget\bin\Debug\net10.0\MyBudget.pdb
+D:\Humber Polytechnic\Project\MyBudget\MyBudget\obj\Debug\net10.0\MyBudget.GeneratedMSBuildEditorConfig.editorconfig
+D:\Humber Polytechnic\Project\MyBudget\MyBudget\obj\Debug\net10.0\MyBudget.AssemblyInfoInputs.cache
+D:\Humber Polytechnic\Project\MyBudget\MyBudget\obj\Debug\net10.0\MyBudget.AssemblyInfo.cs
+D:\Humber Polytechnic\Project\MyBudget\MyBudget\obj\Debug\net10.0\MyBudget.csproj.CoreCompileInputs.cache
+D:\Humber Polytechnic\Project\MyBudget\MyBudget\obj\Debug\net10.0\MyBudget.dll
+D:\Humber Polytechnic\Project\MyBudget\MyBudget\obj\Debug\net10.0\refint\MyBudget.dll
+D:\Humber Polytechnic\Project\MyBudget\MyBudget\obj\Debug\net10.0\MyBudget.pdb
+D:\Humber Polytechnic\Project\MyBudget\MyBudget\obj\Debug\net10.0\MyBudget.genruntimeconfig.cache
+D:\Humber Polytechnic\Project\MyBudget\MyBudget\obj\Debug\net10.0\ref\MyBudget.dll
+D:\Humber Polytechnic\Project\MyBudget\MyBudget\obj\Debug\net10.0\MyBudget.sourcelink.json
